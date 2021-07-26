@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Post a job</title>
+</head>
+
+<body>
+
+    <head>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <a class="navbar-brand ml-4" href="#"><img src="./img/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto  " id="navTab">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><img src="./img/Popup.png" alt="" class="navMessagico mt-1"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><img src="./img/New Message.png" alt="" class="navMessagico"></a>
+                    </li>
+                    <li class="nav-item dropdown  dropdownBorder ">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <img src="./img/User Male.png" alt="" class="navMessagico"> Consumers Name
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </head>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light mt-4" id="dashboard">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent3"
+                aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  pl-2" id="navbarSupportedContent3">
+                <ul class="navbar-nav    " id="navTab">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">DashBoard </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">My project </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Messages </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#" id="curent_tab" > Post a job</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">find master </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container mt-5 pb-3" id="bgFoam">
+        <div class="row">
+            <div class="col-12 text-center  pt-3">
+                <h3 class="curent_tab" >Post a job</h3>
+                <p style="color: #868686 ;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, numquam.</p>
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Title </label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Describe your job </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="row my-3">
+                <div class="col-12">
+                    <h5>Job Type</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Pro will travel to me</label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">it can done online</label>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I will travel</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group my-5">
+                <label for="exampleFormControlSelect1"> select the catagory of work</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Select</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="row  ">
+                <div class="col-6 ">
+                    <div class="form-group ">
+                        <label for="exampleFormControlSelect1"> select the catagory of work</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Select</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="col-3 ">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Budget </label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Required </label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="col-12">
+                    <h5>Status</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Publish Job</label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Save as a draft</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-12">
+                    <h5>Attactment Supported document</h5>
+                </div>
+            </div>
+            <div class="row my-2 ">
+                <div class="col-12">
+                    <div class="form-group">
+
+                        <input type="file" class="form-control-file " id="exampleFormControlFile1">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="buton my-4">
+                <button type="button" class="btn btn-danger">Post a job</button>
+
+
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="jumbotron text-center">
+        <h2 class="text-white">Top finance Experts are in high demand.</h2>
+        <p class="lead pt-4">
+            <a class="btn btn-outline-light btn-lg" href="#" role="button"> Get started with QuiqPro</a>
+        </p>
+    </div>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-5" style="background-color: #2D408E; color: aliceblue;">
+    <div class="container">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-3  mt-3 ">
+  
+          <!-- Content -->
+          <!-- <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p> -->
+          <a href="#"> <img class="  " src="./img/Logo_2-Client_white 1.png" alt="footer logo"></a> <br>
+          <a href="#"> <img class="social_links  " src="./img/linkedin-in.png" alt="footer logo"></a> 
+          <a href="#"> <img class="social_links " src="./img/twiter.png" alt="footer logo"></a>
+          <a href="#"> <img class="social_links " src="./img/facebook-f.png" alt="footer logo"></a>
+          <a href="#"> <img class="social_links " src="./img/instagram.png" alt="footer logo"></a>
+
+
+
+  
+        </div>
+        <!-- Grid column -->
+        
+  
+        <div class="col-md-3   " >
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">About Us</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Privacy policy</a>
+            </li>
+            <li>
+              <a href="#!">Cookie Policy</a>
+            </li>
+            <li>
+              <a href="#!">About QuiqPro</a>
+            </li>
+            <li>
+              <a href="#!">Terms & condition</a>
+            </li>
+            <li>
+                <a href="#!">How QuiqPro Works</a>
+              </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3  ">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">POPULAR SERVICESS</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!"> Financial Planning</a>
+            </li>
+            <li>
+              <a href="#!"> Partnership Tax Return</a>
+            </li>
+            <li>
+              <a href="#!">About QuiqPro
+
+            </a>
+            </li>
+            
+          </ul>
+  
+        </div>
+        <div class="col-md-3 ">
+  
+            
+            <a href="#" > <img src="./img/appstore.png" alt="footer logo"></a> <br>
+
+            
+          
+    
+          </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+</div>
+    <!-- Footer Links -->
+  
+  
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

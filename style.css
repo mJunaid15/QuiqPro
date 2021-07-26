@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color:#FFFFFF!important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#dashboard{
+background-color: #EFF6FC!important;
+border-radius: 22px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#bgFoam{
+    background: #FAFBFC;
+    border-radius: 8px;
+}
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(31, 31, 30, 0.5)),
+                  url("./img/jombtron.png");
+                  background-size: 100% 100%;
+                  margin-bottom: -1px;
+                   height: 277px;
+                  border-radius: 0px;
+}
+.jumbotron h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.buton{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buton button {
+    margin-right: 8px;
+}
+
+.navMessagico{
+width: 24px;
+height: 24px;
+margin-left: 10px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 18px;
+}
+.nav-item{
+    padding-left: 30px;
+    justify-content: space-around;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.collapse.show li  {
+    padding-left: 0px;
+}
+
+#curent_tab{
+    color: #E00B0B;
+}
+.curent_tab{
+         
+    color: #E00B0B;
+    font-size: 24px;
+
+}
+label{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.buton button{
+    background: #E00B0B!important;
+    border-radius: 5px;
+    width: 135.14px;
+
+}
+footer a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social_links{
+    padding: 20px 10px;
+  margin-left: 6px;
+
+}
+
+/* enter your message   text area  */
+
+.chat-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.chat-footer textarea{
+    display: block;
+    flex: 1;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border:1px solid rgb(71, 136, 199, 0.99);
+
+}
+.chat-footer .icon{
+    position:absolute;
+    right: 60px;
+    bottom: 15px;
+
+}
+.label_input{
+    border:1px solid rgb(71, 136, 199, 0.99);
+    border-radius: 3px;
+   
+}
+.imgCard{
+    width: 103.02px;
+    height: 102.36px;
+}
+.labelcardheading{
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 60px;
+    color: #000000;
+}
+.labelcardpara{
+    color: #000000;
+    font-size: 17px;
+}
+.card{
+    border: none;
+}
